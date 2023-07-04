@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clase 15
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+    
+    <section class="container mt-3">
+        <h2>Bootstrap</h2>
+    </section>
+
+    <section class="container bg-primary">
+        <p>
+            Esto es un parrafo dentro de una seccion controlada por bootstrap
+        </p>
+    </section>
+
+    <section class="container-fluid">
+        <h1>Columas Boostrap</h1>
+        <div class="row">
+            <div class="col bg-info">.columna</div>
+            <div class="col bg-warning">.columna</div>
+            <div class="col bg-info">.columna</div>
+            <div class="col bg-info">.columna</div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Tabla</h2>
+        <table class="table table-borderer table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nico</td>
+                    <td>Liloia</td>
+                    <td>nico@gmail</td>
+                </tr>
+                <tr>
+                    <td>asd</td>
+                    <td>asdasdasd</td>
+                    <td>asdasd@gmail</td>
+                </tr>
+                <tr>
+                    <td>asd</td>
+                    <td>asdasdasd</td>
+                    <td>asdasd@gmail</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="container">
+        <div class="alert alert-success">
+            Gracias por comprar en nuestra tienda
+        </div>
+
+        <button type="button" class="btn btn-success">Boton</button>
+    </section>
+
+   <!-- <section class="container">
+    <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/400/400" class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/400/400" class="d-block">
+          </div>
+        </div>
+      </div>
+   </section> -->
+
+   <section class="container-fluid">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://fondosmil.com/fondo/6212.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://besthqwallpapers.com/Uploads/18-2-2020/122086/lionel-messi-fc-barcelona-world-football-star-argentinian-soccer-player-portrait.jpg"
+             class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   </section>
+
+    <script src="bootstrap.js"></script>
+</body>
+</html>
